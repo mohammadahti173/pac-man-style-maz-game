@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Neon Maze</title>
+  <meta name="description" content="Neon Maze – a neon arcade maze game. Eat every dot, grab power pellets and outsmart the ghosts across 3 mazes." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="stage">
+    <canvas id="game" width="900" height="780" aria-label="Neon Maze game"></canvas>
+  </main>
+  <div id="touch" aria-hidden="true">
+    <button data-dir="up" class="up">▲</button>
+    <button data-dir="left" class="left">◀</button>
+    <button data-dir="pause" class="mid">❚❚</button>
+    <button data-dir="right" class="right">▶</button>
+    <button data-dir="down" class="down">▼</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
