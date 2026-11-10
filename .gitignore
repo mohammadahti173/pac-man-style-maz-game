@@ -1,0 +1,14 @@
+# CMake build directories
+build/
+build-*/
+cmake-build-*/
+
+# Runtime state
+highscore.txt
+keylog.txt
+*.log
+
+# Editor and IDE files
+.vscode/
+.vs/
+*.user
